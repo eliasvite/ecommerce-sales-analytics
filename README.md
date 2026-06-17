@@ -1,3 +1,5 @@
+![E-Commerce Data Pipeline Workflow](images/pipeline_diagram.png)
+
 # End-to-End E-Commerce Data Pipeline & Analytics Warehouse
 
 This repository contains a production-grade, defensive Data Engineering pipeline designed to extract, clean, transform, and load transactional e-commerce sales records into a Relational Data Warehouse utilizing a relational **Star Schema** architecture. 
