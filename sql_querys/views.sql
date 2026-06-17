@@ -16,7 +16,8 @@ GO
 -- View B: Geographic Performance and Average Ticket Value
 CREATE OR ALTER VIEW v_Geographic_Sales_Performance AS
 SELECT 
-    g.Ship_State, g.Ship_City,
+    g.Ship_State, 
+    g.Ship_City,
     COUNT(DISTINCT f.Order_ID) AS Total_Orders,
     SUM(f.Qty) AS Total_Units_Shipped,
     SUM(f.Amount) AS Total_Sales_Revenue,
